@@ -1,0 +1,203 @@
+/*fonts link*/
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+
+/*common code start*/
+body{
+	padding-top: 109px;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #313841;
+}
+/*common code end*/
+
+/*header start*/
+header{
+	padding: 20px 0;
+	background: #fcdb00;
+}
+.logo{}
+.menu{}
+.menu ul li a{
+	padding: 0 50px !important;
+	font-size: 22px;
+    font-weight: 700;
+    color: #010101 !important;
+}
+.menu ul li:last-child a{
+	padding-right: 0 !important;
+}
+.menu ul li a:hover{
+	color: #ffffff !important;
+}
+/*header end*/
+/*slider start*/
+.slider{
+	padding-bottom: 100px;
+	background-color: #fcdb00;
+}
+.indic_cus {
+    bottom: -80px;
+}
+.indic_cus [data-bs-target] {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+.inner_content{
+	margin-top: 65px;
+}
+.inner_content h1{
+	font-size: 32px;
+    font-weight: 700;
+    color: #010101;
+}
+.inner_content h2{
+	margin:20px 0;
+	font-size: 20px;
+    font-weight: 400;
+    color: #313841;
+}
+.inner_content p{
+	color: #555555;
+	margin-bottom: 30px;
+}
+.inner_icon{}
+.inner_icon ul li{
+	margin-right: 35px !important;
+}
+.inner_icon ul li i{
+	font-size: 42px;
+    color: #010101;
+	transition: .33s;
+	cursor: pointer;
+}
+.inner_icon ul li i:hover{
+	transform: scale(0.7);
+}
+/*slider end*/
+/*feature start*/
+.feature{
+	padding-top: 100px;
+	padding-bottom: 120px;
+}
+.c_content{}
+.c_conh1{
+	margin-bottom: 15px;
+	font-size: 32px;
+    font-weight: 700;
+    color: #010101;
+}
+.c_conp{
+	font-size: 20px;
+    color: #313841;
+    line-height: 24px;
+}
+.f_content{
+	margin-top: 60px;
+}
+.f_icon{}
+.f_icon i{
+	font-size: 50px;
+	color: #010101;
+	cursor:text;
+	transition: .3s;
+}
+.f_icon i:hover{
+	transform: scale(0.7);
+}
+.f_text{}
+.f_text h2{
+	margin-bottom: 10px;
+	font-size: 22px;
+    font-weight: 400;
+    color: #010101;
+}
+.f_text p{
+	color: #898989;
+	line-height: 20px;
+    letter-spacing: .3px;
+}
+/*feature end*/
+
+/*contact start*/
+.contact{
+	padding-top: 100px;
+	padding-bottom: 20px;
+	background-color: #010101;
+}
+.c_yellow{
+	color: #fcdb00;
+}
+.c_ash{
+	color: #898989;
+}
+
+.c_form{
+	margin-top: 45px;
+}
+.c_input{
+	padding: 0 30px;
+    height: 50px;
+	font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+	color: #898989;
+	line-height: 24px;
+}
+.f_btn{
+	width: 100%;
+	height: 50px;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 700;
+    color: #313841;
+	background-color: #fcdb00;
+	text-transform: uppercase;
+}
+.f_btn:hover {
+	background-color: #fff;
+}
+.c_icon {
+    margin: 70px 0;
+}
+.c_icon ul li{
+	margin-right: 30px !important;
+}
+.c_icon ul li:last-child{
+	margin-right: 0 !important;
+}
+.c_icon ul li a i{
+	font-size: 42px;
+    color: #fcdb00;
+    transition: .33s ease;
+}
+.c_icon ul li a i:hover{
+	color: #FFF;
+}
+/*contact end*/
+/*footer start*/
+footer{
+	padding-bottom: 80px;
+	background-color: #010101;;
+}
+.ft_text{}
+.ft_text address {
+	color: white;
+    line-height: 22px;
+}
+.ft_link{}
+.ft_link p {
+    margin-bottom: 0;
+    line-height: 22px;
+}
+.ft_link p a {
+	color: white;
+	text-decoration: none;
+	transition: .33s ease;
+}
+.ft_link p a:hover {
+	color: #fcdb00;
+}
+/*footer end*/
+    
