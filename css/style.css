@@ -17,6 +17,17 @@ header{
 	padding: 20px 0;
 	background: #fcdb00;
 }
+.nav_tog{
+	box-shadow: none !important;
+	border-color: #313841;
+    transition: .33s ease;
+}
+.nav_tog:hover{
+	border-color: #010101;
+}
+.navtog_icon{
+	color: #313841;
+}
 .logo{}
 .menu{}
 .menu ul li a{
